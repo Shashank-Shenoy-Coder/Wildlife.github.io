@@ -1,0 +1,359 @@
+#about_banner
+{
+    position: sticky;
+    z-index: 2;
+    top: 0vh;
+    background-color: #212124;
+    height: 16vh;
+    /* padding-left: 0vw; */
+    padding-top: 1px;
+    /* border-radius: 100px; */
+    /* border: 3px solid #A365EF; */
+    /* border-bottom-left-radius: 40px; */
+    /* border-bottom-right-radius: 40px; */
+}
+
+/* Logo Css : */
+#about_logo
+{
+    border: 3px solid #a52a2a;
+    border-radius: 44px;
+    height: 50px;
+    margin-left: 10vw;
+}
+
+#about_slogan
+{
+    display: block;
+    border: 3px solid #a52a2a;
+    border-radius: 44px;
+    height: 30px;
+    /* margin-top: 0.3%; */
+    margin-left: 16%;
+}
+
+/* Navigation CSS : */
+#about_navigation li
+{
+    display: inline-block;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: -130px;
+    left: 50%;
+    padding: 4% 3% 3% 3%;
+    list-style-type: none;
+}
+
+#about_navigation li a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#about_navigation li a.homepage
+{
+    color: #ffff00;
+}
+
+#about_navigation li a:hover
+{ 
+    color: #ffff00;
+    transition: color 1s ease;
+}
+
+
+/* Main contents css */
+#about_us_container1_content
+{
+    width: 100%;
+}
+
+#about_us_container1_content h1
+{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 50px;
+    font-weight: 10;
+    margin: 5% 0% 2% 33%;
+}
+
+#about_us_container1_content_text_2nd_line
+{
+    position: relative;
+    left: 10%;
+}
+
+#about_us_container1_content_text_3rd_line
+{
+    position: relative;
+    left: 5%;
+}
+
+#about_us_container1_content p
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: 10;
+    margin: 1% 0% 2% 34%;
+}
+
+#about_us_container1_content_card1
+{
+    float: left;
+    margin: 5% 8% 2% 10%;
+    width: 300px;
+    height: 500px;
+    background-color: #F3F4F5;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px #212124;
+    border-radius: 40px;
+}
+
+#about_us_container1_content_card1 h2
+{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;
+    font-weight: 10;
+    text-align: center;
+}
+
+#about_us_container1_content_card1 p
+{
+    position: relative;
+    color: #8D8E8E;
+    left: -50px;
+    font-weight: 10;
+    line-height: 1.5;
+}
+
+#about_us_container1_content_card2 img
+{
+    float: left;
+    margin-top: 1px;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0px 0px 2px 2px #212124;
+    border-radius: 40px;
+}
+
+#about_us_container1_content_card3
+{
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 310px;
+    height: 450px;
+    padding: 3% 0% 0% 2%;
+    background-color: #F3F4F5;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px #212124;
+    border-radius: 40px;
+}
+
+#about_us_container1_content_card3 div
+{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 80px;
+    border: 2px solid #ffff00;
+}
+
+#about_us_container1_content_card3 img
+{
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+#about_us_container1_content_card3 a
+{
+    position: relative;
+    top: -120px;
+    left: 110px;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;
+    font-weight: 10;
+    color: #000000;
+    text-decoration: none;
+}
+
+#about_us_container1_content_card3 p
+{
+    position: relative;
+    color: #8D8E8E;
+    top: -130px;
+    left: 20px;
+    font-weight: 10;
+    line-height: 1.5;
+}
+
+#about_us_container1_content_card3_icon2
+{
+    position: relative;
+    top: -80px;
+}
+
+
+#about_us_container1_content_card3_icon2 img
+{
+    position: relative;
+    top: 11%;
+    left: 11%;
+}
+
+#about_us_container1_content_card3_icon2_text
+{
+    position: relative;
+    top: -80px;
+    left: 5px;
+}
+
+#about_us_container1_content_card3_icon2_text p
+{
+    position: relative;
+    left: 12px;
+}
+
+#about_us_line1
+{
+    position: relative;
+    top: -100px;
+    right: 30px;
+    width: 308px;
+}
+
+#about_us_container2_content
+{
+    background-color: #2A2A3B;
+    margin-top: 45%;
+    height: 650px;
+}
+
+#about_us_container2_content h1
+{
+    color: #ffffff;
+    padding: 6% 0% 0% 8%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}
+
+#about_us_container2_content_text
+{
+    color: #ffffff;
+    padding: 0% 0% 0% 8%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+#about_us_question_mark
+{
+    float: right;
+    margin-right: 70px;
+    margin-top: -50px;
+    border-radius: 40px;
+}
+
+#about_us_line2
+{
+    width: 10px;
+    color: #ffffff;
+}
+
+#about_us_container2_content_question1
+{
+    margin: 0% 0% 0% 8%;
+    width: 500px;
+    height: 50px;
+    box-shadow: 0px 0px 4px 4px #2A2A3B;
+    background-color: #ffff00;
+}
+
+#about_us_container2_content_question1 p
+{
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    left: -30px;
+    top: -10px;
+    padding: 0% 0% 0% 8%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+#about_us_container2_content_question1 img
+{
+   padding-left: 10%;
+}
+
+#about_us_container1_content_answer1
+{
+    color: #ffffff;
+    margin: 2% 0% 0% 10%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+#about_us_container2_content_question2
+{
+    margin: 2% 0% 0% 8%;
+    width: 500px;
+    height: 50px;
+    box-shadow: 0px 0px 4px 4px #2A2A3B;
+    border: 2px solid #ffff00;
+}
+
+#about_us_container2_content_question2 img
+{
+   padding-left: 10%;
+   padding-top: 2%;
+}
+
+
+#about_us_container2_content_question2 p
+{
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    left: -30px;
+    top: -10px;
+    padding: 0% 0% 0% 8%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+#about_us_container2_content_question3
+{
+    margin: 2% 0% 0% 8%;
+    width: 500px;
+    height: 50px;
+    box-shadow: 0px 0px 4px 4px #2A2A3B;
+    border: 2px solid #ffff00;
+}
+
+#about_us_container2_content_question3 img
+{
+   padding-left: 10%;
+   padding-top: 2%;
+}
+
+
+#about_us_container2_content_question3 p
+{
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    left: -30px;
+    top: -10px;
+    padding: 0% 0% 0% 8%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+#about_us_footer
+{
+    /* position: relative;
+    top: -70px; */
+    padding-top: 150px;
+    background-color: #F3F4F5;
+}

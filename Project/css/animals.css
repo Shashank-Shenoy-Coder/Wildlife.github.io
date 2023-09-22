@@ -1,0 +1,698 @@
+#birds_nav
+{
+    position: relative;
+    top: -250px;
+    padding-left: 130px;
+    /* z-index: 2; */
+    color: #ffff00;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#birds_nav a
+{
+    text-decoration: none;
+    color: #ffff00;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#birds h1
+{
+    position: relative;
+    top: -280px;
+    padding-left: 125px;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 15px 15px #251f1f;
+}
+
+#container1_content
+{
+    position: relative;
+    top: -200px;
+}
+
+#container1_content_card1
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/eagle_card6.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card1 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card1 h3>a
+{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card1 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card1 p
+{
+    position: relative;
+    top: 45%;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#btn1
+{
+    position: relative;
+    top: 50%;
+    left: -70px;
+    background-color: transparent;
+    border: 2px solid #ffff00;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#btn1:hover
+{
+   background-color: rgb(150, 173, 38);
+}
+
+#container1_content_card1:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#btn1 img
+{
+    width: 30px;
+    height: 30px;
+}
+
+/* #container1_content_card2
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/home/container3_content_card2.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 1000ms, height 1000ms;
+}
+
+#container1_content_card2:hover
+{
+    transform: scale(1.2,1.2);
+    height: 550px;
+}
+
+#container1_content_card2 h3
+{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#container1_content_card2 h3>a
+{
+    text-decoration: none;
+    color: #eddb2c;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card3
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/home/container3_content_card3.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 8px 8px #191922;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 1000ms, height 1000ms;
+}
+
+#container1_content_card3:hover
+{
+    transform: scale(1.2,1.2);
+    height: 550px;
+}
+
+#container1_content_card3 h3
+{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+#container1_content_card3 h3>a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Capriola', sans-serif;
+    line-height: 1.5;
+} */
+
+#container1_content_card2
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/hornbill_card1.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card2 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card2 h3>a
+{
+    text-decoration: none;
+    color: #ffff00;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card2 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card2 p
+{
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    color: #ffff00;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#container1_content_card2:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#container1_content_card3
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/owl_card1.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card3 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card3 h3>a
+{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card3 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card3 p
+{
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#container1_content_card3:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#container1_content_card4
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/tiger_card.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card4 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card4 h3>a
+{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card4 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card4 p
+{
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#container1_content_card4:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#container1_content_card5
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/lion_card.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card5 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card5 h3>a
+{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card5 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card5 p
+{
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#container1_content_card5:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#container1_content_card6
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/leopard_card.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card6 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card6 h3>a
+{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card6 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card6 p
+{
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#container1_content_card6:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#container1_content_card7
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/rhino_card.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card7 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card7 h3>a
+{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card7 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card7 p
+{
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#container1_content_card7:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#container1_content_card8
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/turtle_card.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card8 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card8 h3>a
+{
+    text-decoration: none;
+    color: #212124;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card8 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card8 p
+{
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#container1_content_card8:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#container1_content_card9
+{
+    background-color: #2E2E41;
+    background-image: url("../images/content/animals/panda_card.jpg");
+    float: left;
+    margin: 13% 2% 3% 10%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #1b1b26;
+    line-height: 1.5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    transition: transform 600ms, height 600ms;
+}
+
+#container1_content_card9 h3
+{
+    position: relative;
+    top: 30%;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+#container1_content_card9 h3>a
+{
+    text-decoration: none;
+    color: #070756;
+    text-shadow: 0px 0px 5px 5px #1b1b26;
+    font-family: 'Capriola', sans-serif;
+}
+
+#container1_content_card9 h3>a:hover
+{
+    color: #eddb2c;
+}
+
+#container1_content_card9 p
+{
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+#container1_content_card9:hover
+{
+    transform: scale(1.2,1.2);
+    height: 510px;
+}
+
+#mammals_nav
+{
+    position: relative;
+    top: -400px;
+    padding-left: 130px;
+    z-index: 1;
+    color: #ffff00;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mammals_nav a
+{
+    text-decoration: none;
+    color: #ffff00;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mammals h1
+{
+    position: relative;
+    top: -430px;
+    padding-left: 125px;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 15px 15px #251f1f;
+}
+
+#endangered_nav
+{
+    position: relative;
+    top: -400px;
+    padding-left: 130px;
+    z-index: 1;
+    color: #ffff00;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#endangered_nav a
+{
+    text-decoration: none;
+    color: #ffff00;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#endangered_species h1
+{
+    position: relative;
+    top: -430px;
+    padding-left: 125px;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 15px 15px #251f1f;
+}
+
+#animals_footer
+{
+    position: relative;
+    top: 700px;
+    padding-top: 100px;
+    background-color: #F3F4F5;
+}

@@ -1,0 +1,17 @@
+#first_name
+{
+    margin-top: 90px;
+    margin-left: 40px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#last_name
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
